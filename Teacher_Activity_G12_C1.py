@@ -26,19 +26,6 @@ pygame.display.update()
 
 
 
-crashed = False
 
-
-while not crashed:
-
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            crashed = True
-
-        print(event)
-
-    pygame.display.update()
-
-    
 pygame.quit()
 #quit()    
