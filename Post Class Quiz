@@ -1,0 +1,32 @@
+
+Q2. How to add an image in the pygame window?  Fill the missing step in blank line:
+   
+    Myimage = pygame.image.load ("bg2.jpg").convert()
+     screen.fill((0,0,0))
+    screen,blit(Myimage,[0,0])
+_________________________?        
+
+pygame.image.upload()
+pygame.display.update()
+pygame.display.show()
+pygame.showimage()
+
+
+Q5.  How to make conditions to check whether the triangle is isosceles or not.
+  (Hint:-  Suppose there are A,B,C sides are given for triangle, for a isosceles triangle any two sides must be equal.)
+
+
+if (A==B or B==C or A==C)
+if(A==B==C)
+if(A==B,A==C)
+if(A=B,A=C,B=C)
+
+ Solution
+ A=5
+ B=10
+ C=10
+ < condition here>:
+   print ("Triangle is Isoscele");
+else:
+print ("Triangle is not isoscele")
+
