@@ -18,29 +18,22 @@ screen.blit(background_image,[0,0])
 pygame.display.update()
 
 
+SAFRON=(255, 153, 51)
+safron_rect=pygame.Rect(50,100,200,30)
+
+pygame.draw.rect(screen,SAFRON,safron_rect)
 
 #Draw WHITE Rectangle on given coordinates
 WHITE=(255,255,255)
 
-white_rect=pygame.Rect(100,100,30,30)
+white_rect=pygame.Rect(50,125,200,30)
 
 pygame.draw.rect(screen,WHITE,white_rect)
 
-#Color or rectangle
-BLUE=(0,0,255)
 
-blue_rect=player=pygame.Rect(100,130,30,30)
-
-#Draw Rectangle of blue color [left, top, width, height]
-
-pygame.draw.rect(screen,BLUE,blue_rect)
-
-#Update the screen after pasting rectangle on it
-pygame.display.update()
 #Draw Green Rectangle
 Green=(34, 139, 34)
-
-green_rect=pygame.Rect(100,160,30,30)
+green_rect=pygame.Rect(50,150,200,30)
 
 pygame.draw.rect(screen,Green,green_rect)
 pygame.display.update()
